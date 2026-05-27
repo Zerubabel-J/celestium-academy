@@ -35,6 +35,11 @@ const waitingForTheSunrise = localFont({
 export const metadata: Metadata = {
   title: "Celestium",
   description: "Responsive dashboard with TailwindCSS",
+  icons: {
+    icon: "/celestium-social.png",
+    shortcut: "/celestium-social.png",
+    apple: "/celestium-social.png",
+  },
 };
 
 export default async function RootLayout({

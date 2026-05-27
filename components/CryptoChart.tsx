@@ -161,17 +161,11 @@ export function CryptoChart() {
       {/* Header */}
       <div className="flex items-center justify-between px-4 sm:px-6 pt-3 pb-2">
         <div className="flex items-center gap-2">
-          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-linear-to-br from-[#f4c542] to-[#d4a532] shadow-md">
-            <div className="flex items-center justify-center w-5 h-5 rounded-sm bg-[#4a7cff]">
-              <div
-                className="w-3 h-3 border border-white/90"
-                style={{
-                  clipPath:
-                    "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-                }}
-              />
-            </div>
-          </div>
+          <img
+            src="/celestium.png"
+            alt="Celestium"
+            className="w-8 h-8 rounded-full object-contain shadow-md"
+          />
           <h1 className="text-[0.8rem] sm:text-sm font-semibold tracking-wide text-white select-none">
             CELESTIUM/USDT
           </h1>
